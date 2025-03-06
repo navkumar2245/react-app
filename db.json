@@ -1,0 +1,45 @@
+{
+  "user": {
+    "id": 1,
+    "name": "John Doe",
+    "email": "john.doe@gmail.com"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "title": " 1. What is the capital of India?",
+      "answers": ["New Delhi", "Mumbai", "Kolkata", "Chennai"]
+    },
+    {
+      "id": 2,
+      "title": " 2. What is the capital of Australia?",
+      "answers": ["Sydney", "Melbourne", "Canberra", "Perth"]
+    },
+    {
+      "id": 3,
+      "title": " 3. What is the capital of USA?",
+      "answers": ["New York", "Washington DC", "Los Angeles", "Chicago"]
+    }
+  ],
+  "answers": [
+    {
+      "id": 1,
+      "correctAnswer": 0,
+      "nextQuestion": 2
+    },
+    {
+      "id": 2,
+      "correctAnswer": 2,
+      "nextQuestion": 3
+    },
+    {
+      "id": 3,
+      "correctAnswer": 1,
+      "nextQuestion": null
+    }
+  ],
+  "start": {
+    "firstQuestionId": 1,
+    "numberOfQuestions": 3
+  }
+}
